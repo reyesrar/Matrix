@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href="Matrix.css">
+    <script src="Matrix.js"></script>
+    <title>Matrix</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Crear Matrices</h1>
+        <div>
+            <h2>Matriz A</h2>
+            <label for="rowsA">Filas:</label>
+            <input type="number" id="rowsA" min="1">
+            <label for="colsA">Columnas:</label>
+            <input type="number" id="colsA" min="1">
+            <button id="createMatrixA">Crear Matriz A</button>
+            <button id="fillRandomA">Rellenar</button>
+            <button id="createRandomMatrixA">Matriz Aleatoria</button>
+            <div id="matrixContainerA"></div>
+        
+            <h2>Matriz B</h2>
+            <label for="rowsB">Filas:</label>
+            <input type="number" id="rowsB" min="1">
+            <label for="colsB">Columnas:</label>
+            <input type="number" id="colsB" min="1">
+            <button id="createMatrixB">Crear Matriz B</button>
+            <button id="fillRandomB">Rellenar</button>
+            <button id="createRandomMatrixB">Matriz Aleatoria</button>
+            <div id="matrixContainerB"></div>
+        </div>
+        <div>
+            <h2>Operaciones</h2>
+            <button id="addMatrices">Sumar Matrices</button>
+            <button id="subtractMatrices">Restar Matrices</button>
+            <button id="multiplyMatrices">Multiplicar Matrices</button>
+            <button id="transposeMatrix">Transponer Matriz</button>
+            <button id="identityMatrix">Identidad Matriz</button>
+            <button id="scalarMultiplyMatrix">Multiplicar Matriz por Escalar</button>
+            <button id="inverseMatrix">Inversa Matriz</button>
+            <button id="determinantMatrix">Determinante Matriz</button>
+            <div id="resultContainer"></div>
+        </div>
+    </div>
+</body>
+</html>
